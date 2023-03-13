@@ -18,7 +18,7 @@ const Items: React.FC<ItemsProps> = ({ type, title, subTitle }) => {
           href="https://agecodehr.com/"
           rel="noopener noreferrer"
         >
-          <div className="item width-full flex mb-5">
+          <div className="item rounded-lg width-full flex mb-5">
             <div className="right mr-3.5">
               <Image
                 className="image-audio h-full"
@@ -36,7 +36,7 @@ const Items: React.FC<ItemsProps> = ({ type, title, subTitle }) => {
           </div>
         </a>
       ) : (
-        <div className="item width-full flex mb-5">
+        <div className="item rounded-lg width-full flex mb-5">
           <div className="right mr-3.5">
             <Image className="image-audio h-full" src={img} width={84} alt="" />
           </div>
