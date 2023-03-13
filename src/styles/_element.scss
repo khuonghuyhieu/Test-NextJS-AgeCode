@@ -1,0 +1,53 @@
+.title {
+  color: $color-font-black;
+  font-family: 'Hiragino-Sans', sans-serif;
+  &-header {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  &-name {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+}
+
+.des {
+  color: $color-font-grey;
+  font-family: 'Hiragino-Sans', sans-serif;
+  &-address {
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 700;
+  }
+}
+
+.title-section {
+  color: $color-font-black-contain;
+  font-family: 'Hiragino-Sans', sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.title-item {
+  color: $color-font-black-contain;
+  font-family: 'Hiragino-Sans', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.des-item {
+  font-family: 'Hiragino-Sans', sans-serif;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+  &-back {
+    color: $color-font-black-contain;
+  }
+  &-grey {
+    color: $color-font-grey-contain;
+  }
+}

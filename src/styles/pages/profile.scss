@@ -1,0 +1,27 @@
+main {
+  .profile {
+    .avatar {
+      &-border {
+        border-radius: 20px;
+        margin-top: -34px;
+      }
+    }
+  }
+
+  .more-link {
+    .wrapper {
+      max-width: 343px;
+      overflow-x: auto;
+      .items-link {
+        min-width: 275px;
+      }
+      &::-webkit-scrollbar {
+        height: 5px;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #c1c1c1;
+      }
+    }
+  }
+}
